@@ -2,7 +2,7 @@
 基于 Unity + ChatGPT + RtVioce 的二次元聊天机器人 demo
 # 开发环境
 Unity 2022.2  
-支持平台：Mac | iOS | Android
+支持平台：Mac | iOS | Android  
 Mac 平台编译产物：Mac/ChatAyna
 # 语言
 c#, python
@@ -15,7 +15,7 @@ c#, python
 
 ## ChatGPT
 申请 OpenAI Key
-https://platform.openai.com/account/api-keys
+https://platform.openai.com/account/api-keys  
 更新到配置文件 config.txt 即可。
 
 注意请求 IP，异常 IP 会被官方 ban。。
@@ -25,7 +25,7 @@ Anya 会根据 ChatGPT 的回答随机触发不同动作。
 ## RtVioce
 文字朗读插件(https://assetstore.unity.com/packages/tools/audio/rt-voice-pro-41068)。
 自动朗读 ChatGPT 回复。
-支持多平台：Mac | iOS | Android
+支持多平台：Mac | iOS | Android  
 支持男声/女生，支持中英日韩等多国语言，见下图：
 <img width="500" src="https://github.com/mollyleeeee/Unity_ChatAnya/blob/master/snapshots/snap5.png">
 
@@ -38,4 +38,5 @@ Anya 会根据 ChatGPT 的回答随机触发不同动作。
 
 # todo
 丰富模型库，添加一些经典动漫角色，后续会更新角色切换功能，模型打磨进展有点慢。
+
 调教 ChatGPT 让他的回答更符合我们的预期，打造独一无二的赛博猫娘，详见调教猫娘咒语（https://github.com/PlexPt/awesome-chatgpt-prompts-zh）。
